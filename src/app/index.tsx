@@ -1,5 +1,5 @@
 import { StyleSheet, View } from "react-native";
-import DeepLinking from "../../components/links/deep-linking";
+import App from "../../components/haptics/example-2";
 
 export default function Index() {
   return (
@@ -8,7 +8,9 @@ export default function Index() {
       {/* <NetworkListner /> */}
       {/* <NetworkDetails /> */}
       {/* <BasicLinking /> */}
-      <DeepLinking />
+      {/* <DeepLinking /> */}
+      {/* <PressHaptics /> */}
+      <App />
     </View>
   );
 }
