@@ -1,12 +1,14 @@
 import { StyleSheet, View } from "react-native";
-import NetworkDetails from "../../components/nettwork-details";
+import DeepLinking from "../../components/links/deep-linking";
 
 export default function Index() {
   return (
     <View style={styles.container}>
       {/* <BasicNetworkType /> */}
       {/* <NetworkListner /> */}
-      <NetworkDetails />
+      {/* <NetworkDetails /> */}
+      {/* <BasicLinking /> */}
+      <DeepLinking />
     </View>
   );
 }
