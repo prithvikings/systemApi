@@ -1,5 +1,5 @@
 import { StyleSheet, View } from "react-native";
-import App from "../../components/haptics/example-2";
+import BatteryExample from "../../components/battery/battery-example";
 
 export default function Index() {
   return (
@@ -10,7 +10,8 @@ export default function Index() {
       {/* <BasicLinking /> */}
       {/* <DeepLinking /> */}
       {/* <PressHaptics /> */}
-      <App />
+      {/* <App /> */}
+      <BatteryExample />
     </View>
   );
 }
